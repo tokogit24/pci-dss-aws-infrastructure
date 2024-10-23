@@ -22,7 +22,13 @@ This project sets up a PCI-DSS compliant infrastructure on AWS using Terraform. 
 ### Project Structure
 
 ## Directory Structure  
-/pci-dss-aws-infrastructure │ ├── main.tf # Terraform configuration file ├── variables.tf # Variables used in the Terraform configuration └── README.md # Project documentation
+
+/pci-dss-aws-infrastructure
+│
+├── main.tf               # Terraform configuration file
+├── variables.tf          # Variables used in the Terraform configuration
+└── README.md             # Project documentation
+
 
 ### Setup Instructions
 
