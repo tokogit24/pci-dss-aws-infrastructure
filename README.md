@@ -21,11 +21,6 @@ This repository contains a Terraform configuration for setting up a secure AWS i
 - **`README.md`**: Documentation explaining the project and how to use it.
 - **`.gitignore`**: To ignore Terraform state files and other unnecessary files.
 
-## License
-
-This project is licensed under the MIT License.
-
-
 ### Table of Contents
 1. [Prerequisites](#prerequisites)
 2. [Project Structure](#project-structure)
@@ -80,4 +75,9 @@ Use the ALB DNS name to access the application via your browser.
    - Run `terraform destroy` If you need to remove the infrastructur
 
 ### Infrastructure Diagram
+![image](https://github.com/user-attachments/assets/8d97913a-4f53-4b50-b069-7447850b7e67)
 
+
+## License
+
+This project is licensed under the MIT License.
