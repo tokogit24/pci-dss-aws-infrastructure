@@ -77,6 +77,7 @@ Use the ALB DNS name to access the application via your browser.
 ### Infrastructure Diagram
 ![image](https://github.com/user-attachments/assets/8d97913a-4f53-4b50-b069-7447850b7e67)
 
+This diagram shows the basic structure of your infrastructure, with public subnets connected to the internet via the internet gateway, and private subnets accessing the internet through the nat gateway. the alb is placed in the public subnets to receive incoming traffic, while the application and database instances are in private subnets for enhanced security.
 
 ## License
 
